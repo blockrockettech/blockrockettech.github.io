@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - New Age v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+ * Start Bootstrap - BlockRocket.tech v4.0.0-beta.2 (https://BlockRocket.tech)
+ * Copyright 2013-2018 Forked from Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/BlockRocket.tech/blob/master/LICENSE)
  */
 html,
 body {
@@ -35,8 +35,8 @@ h4,
 h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px; }
+  font-weight: 300;
+  letter-spacing: 2px; }
 
 p {
   font-size: 18px;
@@ -55,13 +55,13 @@ section {
   -moz-transition: all .35s;
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px; }
+  font-weight: 300;
+  letter-spacing: 2px; }
   #mainNav .navbar-brand {
     color: #fdcc52;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px; }
+    font-weight: 300;
+    letter-spacing: 2px; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #fcbd20; }
   #mainNav .navbar-toggler {
