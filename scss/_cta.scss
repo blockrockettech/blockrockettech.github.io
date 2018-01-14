@@ -2,7 +2,7 @@
 section.cta {
     position: relative;
     padding: 250px 0;
-    background-image: url('../img/bg-cta.jpg');
+    background-image: url('../img/spacex.jpg');
     background-position: center;
     @include background-cover;
     .cta-content {
@@ -10,7 +10,7 @@ section.cta {
         z-index: 1;
         h2 {
             font-size: 50px;
-            max-width: 450px;
+            max-width: 600px;
             margin-top: 0;
             margin-bottom: 25px;
             color: white;
