@@ -1,7 +1,6 @@
 // Styling for the navbar
 #mainNav {
     border-color: fade-out($gray-darker, .95);
-    background-color: $theme-secondary;
     background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
     @include transition-all;
@@ -44,7 +43,6 @@
     }
     @media (min-width: 992px) {
         border-color: transparent;
-        background-color: $theme-secondary;
         background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
         background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
         .navbar-brand {
@@ -63,7 +61,6 @@
         }
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
-            background-color: $theme-secondary;
             background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
             background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
             .navbar-brand {
