@@ -2,6 +2,8 @@
 #mainNav {
     border-color: fade-out($gray-darker, .95);
     background-color: $theme-secondary;
+    background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
     @include transition-all;
     @include heading-font;
     .navbar-brand {
@@ -43,6 +45,8 @@
     @media (min-width: 992px) {
         border-color: transparent;
         background-color: $theme-secondary;
+        background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+        background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
         .navbar-brand {
             color: fade(white, 70%);
             &:hover,
@@ -60,6 +64,8 @@
         &.navbar-shrink {
             border-color: fade-out($gray-darker, .9);
             background-color: $theme-secondary;
+            background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+            background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
             .navbar-brand {
                 color: white;
                 &:hover,
