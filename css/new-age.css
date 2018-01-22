@@ -36,7 +36,7 @@ h5,
 h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 300;
-  letter-spacing: 2px; }
+  letter-spacing: 1px; }
 
 p {
   font-size: 18px;
@@ -58,12 +58,12 @@ section {
   transition: all .35s;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 300;
-  letter-spacing: 2px; }
+  letter-spacing: 1px; }
   #mainNav .navbar-brand {
     color: white;
     font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-weight: 500 !important; }
     #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
       color: #fcbd20; }
