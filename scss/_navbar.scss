@@ -3,6 +3,7 @@
     border-color: fade-out($gray-darker, .95);
     background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
     background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
     @include transition-all;
     @include heading-font;
     .navbar-brand {
@@ -45,6 +46,7 @@
         border-color: transparent;
         background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
         background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+        border-bottom: 1px solid rgba(255,255,255,0.1);
         .navbar-brand {
             color: fade(white, 70%);
             &:hover,

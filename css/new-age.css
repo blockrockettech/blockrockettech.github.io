@@ -52,6 +52,7 @@ section {
   border-color: rgba(34, 34, 34, 0.05);
   background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-transition: all .35s;
   -moz-transition: all .35s;
   transition: all .35s;
@@ -90,7 +91,8 @@ section {
     #mainNav {
       border-color: transparent;
       background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-      background: linear-gradient(to left, #7b4397, #dc2430); }
+      background: linear-gradient(to left, #7b4397, #dc2430);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
       #mainNav .navbar-brand {
         color: fade(white, 70%); }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
