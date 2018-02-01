@@ -172,8 +172,12 @@ section.features .section-heading {
 
 section.features .device-container,
 section.features .feature-item {
-  max-width: 325px;
+  max-width: 235px;
   margin: 0 auto; }
+  @media (min-width: 992px) {
+    section.features .device-container,
+    section.features .feature-item {
+      max-width: 450px; } }
 
 section.features .device-container {
   margin-bottom: 100px; }
