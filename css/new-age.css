@@ -164,7 +164,8 @@ section.download {
       font-size: 42px; } }
 
 section.features {
-  background: url("../img/br_repeat.png"); }
+  background: url("../img/br_repeat.png");
+  filter: brightness(110%); }
   section.features .section-heading {
     margin-bottom: 100px; }
     section.features .section-heading h2 {
