@@ -44,7 +44,7 @@ p {
   margin-bottom: 20px; }
 
 section {
-  padding: 100px 0; }
+  padding: 50px 0; }
   section h2 {
     font-size: 50px; }
 
@@ -167,7 +167,7 @@ section.features {
   background: url("../img/br_repeat.png");
   filter: brightness(110%); }
   section.features .section-heading {
-    margin-bottom: 100px; }
+    margin-bottom: 20px; }
     section.features .section-heading h2 {
       margin-top: 0; }
     section.features .section-heading p {
