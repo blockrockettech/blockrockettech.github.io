@@ -45,8 +45,14 @@ p {
 }
 
 section {
-    padding: 50px 0;
+    padding: 30px 0;
     h2 {
         font-size: 50px;
     }
+}
+
+.full-hr {
+    max-width: 500px;
+    border-width: 2px;
+    border-color: $theme-primary;
 }
