@@ -205,6 +205,84 @@ section.features {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 
+section.technologies {
+  background-color: #333333;
+  color: #777777;
+  filter: brightness(110%); }
+  section.technologies .section-heading {
+    margin-bottom: 20px; }
+    section.technologies .section-heading h2 {
+      margin-top: 0; }
+    section.technologies .section-heading p {
+      margin-bottom: 0; }
+  section.technologies .device-container,
+  section.technologies .feature-item {
+    max-width: 235px;
+    margin: 0 auto; }
+    @media (min-width: 992px) {
+      section.technologies .device-container,
+      section.technologies .feature-item {
+        max-width: 450px; } }
+  section.technologies .device-container {
+    margin-bottom: 100px; }
+    @media (min-width: 992px) {
+      section.technologies .device-container {
+        margin-bottom: 0; } }
+  section.technologies .feature-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; }
+    section.technologies .feature-item h3 {
+      font-size: 30px;
+      color: white; }
+    section.technologies .feature-item i {
+      font-size: 80px;
+      display: block;
+      margin-bottom: 15px;
+      background: -webkit-linear-gradient(to left, #000, #696969);
+      background: linear-gradient(to left, #000, #696969);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
+section.blockchain {
+  background-color: #555555;
+  color: #000;
+  filter: brightness(110%); }
+  section.blockchain .section-heading {
+    margin-bottom: 20px; }
+    section.blockchain .section-heading h2 {
+      margin-top: 0; }
+    section.blockchain .section-heading p {
+      margin-bottom: 0; }
+  section.blockchain .device-container,
+  section.blockchain .feature-item {
+    max-width: 235px;
+    margin: 0 auto; }
+    @media (min-width: 992px) {
+      section.blockchain .device-container,
+      section.blockchain .feature-item {
+        max-width: 450px; } }
+  section.blockchain .device-container {
+    margin-bottom: 100px; }
+    @media (min-width: 992px) {
+      section.blockchain .device-container {
+        margin-bottom: 0; } }
+  section.blockchain .feature-item {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center; }
+    section.blockchain .feature-item h3 {
+      font-size: 30px;
+      color: white; }
+    section.blockchain .feature-item i {
+      font-size: 80px;
+      display: block;
+      margin-bottom: 15px;
+      background: -webkit-linear-gradient(to left, #000, #696969);
+      background: linear-gradient(to left, #000, #696969);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+
 section.cta {
   position: relative;
   padding: 250px 0;
@@ -276,9 +354,9 @@ footer {
   footer ul {
     margin-bottom: 0; }
     footer ul li a {
-      font-size: 12px;
       color: rgba(255, 255, 255, 0.3); }
       footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+        color: white;
         text-decoration: none; }
 
 .bg-primary {
