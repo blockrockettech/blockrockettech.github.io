@@ -206,10 +206,10 @@ section.features {
       -webkit-text-fill-color: transparent; }
 
 section.technologies {
-  background: url("../img/what-the-hex-dark.png"), #000;
-  background: url("../img/what-the-hex-dark.png"), -webkit-linear-gradient(to left, #000, #696969);
-  background: url("../img/what-the-hex-dark.png"), linear-gradient(to left, #000, #696969);
-  color: #777777;
+  color: white;
+  background: #000;
+  background: -webkit-linear-gradient(to left, #696969, #222222);
+  background: linear-gradient(to left, #696969, #222222);
   filter: brightness(110%); }
   section.technologies .section-heading {
     margin-bottom: 20px; }
@@ -248,9 +248,9 @@ section.technologies {
 
 section.blockchain {
   color: white;
-  background: url("../img/bg-pattern.png"), #000;
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #000, #696969);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #000, #696969);
+  background: #000;
+  background: -webkit-linear-gradient(to left, #222222, #696969);
+  background: linear-gradient(to left, #222222, #696969);
   filter: brightness(110%); }
   section.blockchain .section-heading {
     margin-bottom: 20px; }

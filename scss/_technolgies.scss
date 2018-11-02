@@ -1,11 +1,10 @@
 // Styling for the features section
 section.technologies {
 
-    background: url('../img/what-the-hex-dark.png'), $theme-secondary;
-    background: url('../img/what-the-hex-dark.png'), -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-    background: url('../img/what-the-hex-dark.png'), linear-gradient(to left, $theme-secondary, $theme-tertiary);
-
-    color: $gray-light;
+    color: white;
+    background: $theme-secondary;
+    background: -webkit-linear-gradient(to left, $theme-tertiary,  $gray-darker);
+    background: linear-gradient(to left, $theme-tertiary, $gray-darker);
 
     filter: brightness(110%);
 
