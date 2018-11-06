@@ -19,9 +19,8 @@ section.technologies {
     }
     .device-container,
     .feature-item {
-        max-width: 235px;
         @media(min-width: 992px) {
-            max-width: 450px;
+
         }
         margin: 0 auto;
     }
@@ -34,7 +33,7 @@ section.technologies {
     .feature-item {
         padding-top: 15px;
         padding-bottom: 15px;
-        text-align: center;
+        text-align: left;
         h3 {
             font-size: 30px;
             color: white;

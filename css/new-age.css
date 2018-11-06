@@ -219,12 +219,7 @@ section.technologies {
       margin-bottom: 0; }
   section.technologies .device-container,
   section.technologies .feature-item {
-    max-width: 235px;
     margin: 0 auto; }
-    @media (min-width: 992px) {
-      section.technologies .device-container,
-      section.technologies .feature-item {
-        max-width: 450px; } }
   section.technologies .device-container {
     margin-bottom: 100px; }
     @media (min-width: 992px) {
@@ -233,7 +228,7 @@ section.technologies {
   section.technologies .feature-item {
     padding-top: 15px;
     padding-bottom: 15px;
-    text-align: center; }
+    text-align: left; }
     section.technologies .feature-item h3 {
       font-size: 30px;
       color: white; }
