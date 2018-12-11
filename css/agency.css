@@ -562,3 +562,30 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   filter: grayscale(100%);
   max-height: 80px;
 }
+
+#howWeCanHelp {
+  text-align: center;
+  color: #dee2e6;
+  background-image: url("../img/help.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  -webkit-filter: grayscale(30%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
+}
+
+#howWeCanHelp .how-to-container {
+  border-bottom: 1px solid #fed136 !important;
+}
+
+#howWeCanHelp .how-to-points ul {
+  list-style-type: circle;
+  text-align: center;
+}
+
+#howWeCanHelp .how-to-points li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
