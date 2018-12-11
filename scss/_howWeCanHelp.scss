@@ -1,0 +1,40 @@
+#howWeCanHelp {
+  text-align: center;
+  color: $gray-300;
+  background-image: url('../img/help.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  -webkit-filter: grayscale(30%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
+
+  .how-to-container {
+    //border-width: 1px !important;
+    border: 1px solid $primary !important;
+    min-height: 375px;
+  }
+
+  .service-heading {
+      margin-bottom: 25px;
+  }
+
+  .how-to-intro {
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .how-to-points {
+    ul {
+      list-style-type: square;
+      text-align: left;
+    }
+
+    li {
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+
+  }
+
+}

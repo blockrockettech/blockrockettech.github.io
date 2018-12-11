@@ -56,7 +56,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 125px 0;
   }
 }
 
@@ -151,12 +151,12 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
+    background-color: #212529;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -561,4 +561,41 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
   max-height: 80px;
+}
+
+#howWeCanHelp {
+  text-align: center;
+  color: #dee2e6;
+  background-image: url("../img/help.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  -webkit-filter: grayscale(30%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(30%);
+}
+
+#howWeCanHelp .how-to-container {
+  border: 1px solid #fed136 !important;
+  min-height: 375px;
+}
+
+#howWeCanHelp .service-heading {
+  margin-bottom: 25px;
+}
+
+#howWeCanHelp .how-to-intro {
+  text-align: left;
+  margin-left: 15px;
+}
+
+#howWeCanHelp .how-to-points ul {
+  list-style-type: square;
+  text-align: left;
+}
+
+#howWeCanHelp .how-to-points li {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
