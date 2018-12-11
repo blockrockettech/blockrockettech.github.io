@@ -28,7 +28,7 @@
     <script>
         window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
+        function gtag () {
             dataLayer.push(arguments);
         }
 
@@ -38,24 +38,24 @@
     </script>
     <!-- Start of Async Drift Code -->
     <script>
-        "use strict";
+        'use strict';
 
-        !function() {
+        !function () {
             var t = window.driftt = window.drift = window.driftt || [];
             if (!t.init) {
-                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-                    t.factory = function(e) {
-                        return function() {
+                if (t.invoked) return void (window.console && console.error && console.error('Drift snippet included twice.'));
+                t.invoked = !0, t.methods = ['identify', 'config', 'track', 'reset', 'debug', 'show', 'ping', 'page', 'hide', 'off', 'on'],
+                    t.factory = function (e) {
+                        return function () {
                             var n = Array.prototype.slice.call(arguments);
                             return n.unshift(e), t.push(n), t;
                         };
-                    }, t.methods.forEach(function(e) {
+                    }, t.methods.forEach(function (e) {
                     t[e] = t.factory(e);
-                }), t.load = function(t) {
-                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-                    var i = document.getElementsByTagName("script")[0];
+                }), t.load = function (t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement('script');
+                    o.type = 'text/javascript', o.async = !0, o.crossorigin = 'anonymous', o.src = 'https://js.driftt.com/include/' + n + '/' + t + '.js';
+                    var i = document.getElementsByTagName('script')[0];
                     i.parentNode.insertBefore(o, i);
                 };
             }
@@ -179,6 +179,69 @@
     </div>
 </section>
 
+<section style="background-color: #e9ecef">
+    <div class="container-fluid">
+        <div class="card-columns">
+            <div class="card p-3 shadow-sm text-center">
+                <!--<a class="portfolio-link" data-toggle="modal" href="#knownOriginModel">-->
+                    <img class="img-fluid" src="img/clients/KO_icLogo2-01.png" alt="" style="max-height: 150px">
+                <!--</a>-->
+                <div class="card-body">
+                    <p class="card-text">Digital asset markeplace</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/opentally.png" alt="" style="max-height: 100px">
+                <div class="card-body">
+                    <p class="card-text">Customer engagement platform</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/cryptokaiju.png" alt="">
+                <div class="card-body">
+                    <p class="card-text">Pioneering physical collectibles</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/Wakelet_blue.png" alt="">
+                <div class="card-body">
+                    <p class="card-text">Human curated search</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/AB_logoblocks.jpg" alt="" style="max-height: 150px">
+                <div class="card-body">
+                    <p class="card-text">Art collective</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/crypto-decks-logo.svg" alt="">
+                <div class="card-body">
+                    <p class="card-text">Data aggregation</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/Circle_logoBM-1-02.png" alt="" style="max-height: 150px">
+                <div class="card-body">
+                    <p class="card-text">Community</p>
+                </div>
+            </div>
+            <div class="card p-3 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/Investx.png" alt="" style="max-height: 150px">
+                <div class="card-body">
+                    <p class="card-text">Smart contract execution</p>
+                </div>
+            </div>
+            <div class="card p-2 shadow-sm text-center">
+                <img class="img-fluid" src="img/clients/pixie-1.png" alt="" style="max-height: 150px">
+                <div class="card-body">
+                    <p class="card-text">Loyalty on the Blockchain</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Portfolio Grid -->
 <section class="bg-light" id="portfolio">
     <div class="container">
@@ -195,7 +258,7 @@
                     <!--<i class="fas fa-plus fa-3x"></i>-->
                     <!--</div>-->
                     <!--</div>-->
-                    <img class="img-fluid p-4" src="img/clients/KO_icLogo2-01.png" alt="">
+
                 </a>
                 <div class="portfolio-caption">
                     <h4><a href="http://knownorigin.io" target="_blank">KnownOrigin</a></h4>
@@ -579,13 +642,13 @@
         </div>
         <div class="row">
             <div class="col-lg-12 ">
-                    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-                    <script>
-                        hbspt.forms.create({
-                            portalId: "5145753",
-                            formId: "bd71621f-bc88-4657-9423-8c7aa032ee50"
-                        });
-                    </script>
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+                <script>
+                    hbspt.forms.create({
+                        portalId: '5145753',
+                        formId: 'bd71621f-bc88-4657-9423-8c7aa032ee50'
+                    });
+                </script>
             </div>
         </div>
 
@@ -775,7 +838,8 @@
                                 Many businesses simply need to keep a tally of things - points for loyalty, vouchers, rewards, tickets, et cetera.
                             </p>
                             <p>
-                                Traditionally companies tend to build closed bespoke applications with no interoperability ultimately affecting the end-user experience and reducing the potential of marketing campaigns.
+                                Traditionally companies tend to build closed bespoke applications with no interoperability ultimately affecting the end-user experience and reducing the potential of
+                                marketing campaigns.
                             </p>
                             <p>
                                 There is no common, low cost, low barrier to entry solution that can leverage open and transparent technology to deliver a frictionless experience.
