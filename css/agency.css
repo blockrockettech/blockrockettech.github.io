@@ -577,12 +577,22 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 }
 
 #howWeCanHelp .how-to-container {
-  border-bottom: 1px solid #fed136 !important;
+  border: 1px solid #fed136 !important;
+  min-height: 375px;
+}
+
+#howWeCanHelp .service-heading {
+  margin-bottom: 25px;
+}
+
+#howWeCanHelp .how-to-intro {
+  text-align: left;
+  margin-left: 15px;
 }
 
 #howWeCanHelp .how-to-points ul {
   list-style-type: square;
-  text-align: center;
+  text-align: left;
 }
 
 #howWeCanHelp .how-to-points li {
