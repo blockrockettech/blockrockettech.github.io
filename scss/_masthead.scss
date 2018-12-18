@@ -29,10 +29,22 @@ header.masthead {
     }
     .intro-sub-heading {
       font-size: 25px;
-      font-weight: 700;
+      font-weight: 500;
       line-height: 25px;
       margin-bottom: 25px;
       @include heading-font;
+    }
+    .intro-alert {
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 25px;
+      margin-bottom: 25px;
+      margin-top: 100px;
+      @include heading-font;
+
+      i {
+        font-size: 16px;
+      }
     }
   }
 }
