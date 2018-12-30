@@ -112,6 +112,11 @@ img::-moz-selection {
   height: 40px;
 }
 
+#clients a {
+  color: black;
+  text-decoration: none;
+}
+
 #mainNav {
   background-color: #212529;
 }
